@@ -1,7 +1,13 @@
-import React from 'react';
+import React, {Component} from "react";
 
-function Square() {
-    return <button className="square">{/* TODO */}</button>;
+interface Props {
+    value: number
+}
+
+class Square extends Component<Props> {
+  render() {
+    return <button className="square">{this.props.value}</button>;
+  }
 }
 
 export default Square;
