@@ -1,9 +1,10 @@
 import React, { Component } from "react";
 import Square from "./components/Square";
+import SquareHook from "./components/SquareHook";
 
 class Game extends Component {
   renderSquare(i: number) {
-    return <Square value={i} />;
+    return <SquareHook value={i} />;
   }
 
   render() {
