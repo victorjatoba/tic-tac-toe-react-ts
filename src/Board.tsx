@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Square from "./Square";
+import Square from "./components/Square";
 
 class Game extends Component {
   renderSquare(i: number) {
